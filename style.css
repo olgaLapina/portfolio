@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather";
+}
+.first-part {
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 910px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 0px 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+}
+
+.nav-link {
+  color: white;
+  fill: white;
+  text-decoration: none;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.nav-link:hover {
+  color: #bdae82;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.language-selected {
+  color: #bdae82;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  width: 500px;
+  height: 100%;
+  margin-left: 80px;
+  margin-bottom: 136px;
+}
+
+.welcome-title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: white;
+  height: 111px;
+}
+
+.welcome-text {
+  width: 470px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.welcome-buttons {
+  margin-top: 25px;
+}
+
+.button {
+  cursor: pointer;
+  color: white;
+  background-color: #bdae82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 55px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.button:hover {
+  color: black;
+}
