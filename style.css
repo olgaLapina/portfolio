@@ -121,3 +121,80 @@ body {
 .button:hover {
   color: black;
 }
+
+.second-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 482px;
+  width: 1440px;
+  background-color: black;
+}
+
+h2 {
+  color: #bdae82;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+.section-title {
+  display: inline-block;
+  height: 80px;
+  padding-top: 100px;
+  padding-left: 15px;
+}
+
+.line {
+  display: inline-block;
+  align-self: center;
+}
+.svg-line {
+  padding-bottom: 13px;
+}
+
+.title {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+}
+
+.skills-items {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 60px;
+  width: 1400px;
+  padding-left: 15px;
+}
+.skills-item {
+  display: inline-block;
+  flex-direction: column;
+  height: 240px;
+  width: 320px;
+  text-align: center;
+}
+
+.bolt-text-in {
+  display: inline-block;
+  width: 280px;
+  height: 40px;
+  padding: 46px 0 20px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.normal-text-in {
+  display: inline-block;
+  width: 280px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
