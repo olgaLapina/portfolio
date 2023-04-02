@@ -3,6 +3,7 @@
 
 * {
   margin: 0px;
+  padding: 0px;
 }
 body {
   display: flex;
@@ -48,6 +49,10 @@ body {
 
 .nav-link:hover {
   color: #bdae82;
+}
+
+.ru-bolt:hover {
+  font-weight: 700;
 }
 
 .language {
@@ -122,6 +127,11 @@ body {
   color: black;
 }
 
+svg:hover {
+  fill: #bdae82;
+  cursor: pointer;
+}
+
 .second-part {
   display: flex;
   flex-direction: column;
@@ -166,8 +176,12 @@ h2 {
   color: white;
   padding-top: 60px;
   width: 1400px;
+}
+
+.fix-error-1 {
   padding-left: 15px;
 }
+
 .skills-item {
   display: inline-block;
   flex-direction: column;
@@ -197,4 +211,61 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 36px;
+}
+
+.third-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1500px;
+  width: 1440px;
+  background-color: black;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 60px 0 60px 0;
+  width: 895px;
+}
+
+.season {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #bdae82;
+  border: solid #bdae82 2px;
+  width: 216px;
+  height: 51px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.season:hover {
+  color: black;
+  background-color: #bdae82;
+}
+
+.fix-error-2 {
+  padding-right: 15px;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  height: 1145px;
+  width: 1440px;
+}
+
+.portfolio-img {
+  height: 560px;
+  width: 450px;
 }
